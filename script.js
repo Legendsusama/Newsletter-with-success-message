@@ -62,7 +62,7 @@ function successState(email){
         <div class="bg-white sm:rounded-lg p-10 w-full h-screen flex flex-col sm:justify-around   sm:w-[400px] sm:h-[500px]">
 
             <span class="block">
-                <img class="w-14 h-14" src="./assets/images/icon-list.svg"/>
+                <img class="w-14 h-14" src="assets/images/icon-success.svg"/ alt="Sucess-icon-sign">
             </span>
             
 
