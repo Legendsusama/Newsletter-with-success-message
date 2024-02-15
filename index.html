@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Sign-up form start -->
+
+  <main class="min-h-screen w-full bg-dark-slate-grey flex justify-center items-center">
+
+    <div class=" flex flex-col w-full sm:flex-row sm:w-[750px]  bg-white sm:p-5 rounded-lg">
+
+      <div class=" w-full sm:w-7/12 sm:order-1 order-2  p-5">
+        <h1 class="text-5xl font-bold py-5">Stay updated!</h1>
+
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+
+        <ul class="py-5">
+          <li class="flex items-start py-1"><span class="mt-1"><img src="./assets/images/icon-list.svg" alt="tick icon"></span><p class="ml-3">Product discovery and building what matters</p></li>
+
+          <li class="flex items-center py-1"><span><img src="./assets/images/icon-list.svg" alt="tick icon"></span><p class="ml-3">Measuring to ensure updates are a success</p></li>
+
+          <li class="flex items-center py-1"><span><img src="./assets/images/icon-list.svg" alt="tick icon"></span><p class="ml-3">And much more!</p></li>
+          
+        </ul>
+
+        <div class="flex justify-between">
+
+          <label for="email" class="font-bold">
+            Email address
+          </label>
+
+          <span class="message">
+          </span>
+
+
+        </div>
+
+        <input type="text" id="email" placeholder="email@company.com" class="w-full my-2 p-4 border border-black outline-none rounded-lg cursor-pointer">
+
+        <button class="custom-btn my-2 subscribeBtn">Subscribe to monthly newsletter</button>
+
+        <!-- <div class="bg-red-500"></div> -->
+
+  
+      </div>
+
+      <!-- Image Section -->
+
+      
+      <div class="w-full sm:w-5/12  sm:order-2 order-1">
+        <!-- <img class=" h-full w-full object-cover"  src="./assets/images/illustration-sign-up-desktop.svg" alt=""> -->
+
+        <picture>
+          <source  media="(max-width: 640px)" srcset="./assets/images/illustration-sign-up-mobile.svg" />
+          <source  media="(min-width: 640px)" srcset="./assets/images/illustration-sign-up-desktop.svg" />
+          <img class="sm:w-full  sm:h-full sm:rounded-lg w-full  object-cover" src="./assets/images/illustration-sign-up-desktop.svg" alt="image" />
+
+        </picture>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
