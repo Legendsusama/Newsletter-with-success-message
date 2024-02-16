@@ -855,20 +855,12 @@ video {
     width: 400px;
   }
 
-  .sm\:w-\[700px\] {
-    width: 700px;
+  .sm\:w-\[750px\] {
+    width: 750px;
   }
 
   .sm\:w-full {
     width: 100%;
-  }
-
-  .sm\:w-\[800px\] {
-    width: 800px;
-  }
-
-  .sm\:w-\[750px\] {
-    width: 750px;
   }
 
   .sm\:flex-row {
